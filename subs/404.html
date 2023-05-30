@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Oops! The page you're looking for seems to have gone on an adventure of its own. But worry not, we'll help you find your way back. Explore our website and discover a world of exciting possibilities.">
+    <meta name="author" content="Al Hassan Web Solutions">
+    <title> Page Not Found: Exploring Uncharted Territory </title>
+   
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="assets/images/favicon/favicon_16X16.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="assets/images/favicon/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="assets/images/favicon/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="assets/images/favicon/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="assets/images/favicon/apple-touch-icon-144x144-precomposed.png">
+
+    <!-- GOOGLE WEB FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fontello/css/fontello.css" rel="stylesheet" > 
+    <link href="fontello/css/animation.css" rel="stylesheet" > 
+
+      <!-- CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <style type="text/css">
+      /*
+
+CSS STRUCTURE:
+
+1. SITE STRUCTURE and TYPOGRAPHY
+2. FORMS
+3. COMMON
+5. MEDIA QUERIES
+
+/*============================================================================================*/
+/* 1.  SITE STRUCTURE and TYPOGRAPHY */
+/*============================================================================================*/
+
+/* Structure */
+html, body {
+  height:100%;  
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+  line-height:20px;
+  margin:0;
+  background-color:#000;
+  color:#fff;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+/* TYPOGRAPHY and links color */
+p {
+  margin-bottom:20px;
+}
+.lead{
+  margin-top:-15px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+a:hover,
+a:focus {
+  color: #00aeef;
+  text-decoration: none;
+  outline:none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased !important;
+}
+h1 {
+  text-transform:uppercase;
+
+  padding:0;
+  text-align:center;
+  font-size:42px;
+  font-weight:600;
+}
+h2 {
+  font-weight:400;
+  margin:0 0 20px 0;
+  padding:0;
+  text-align:center;
+  font-size:22px;
+}
+h3 {
+  font-weight:300;
+  margin:60px 0 20px 0;
+  padding:0;
+  text-align:center;
+  font-size:48px;
+  text-transform:uppercase;
+}
+
+/* BUTTONS */
+.btn-check {
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+background:#7cc576;
+border:none;
+color:#fff;
+display:block;
+line-height:33px;
+text-align:center;
+margin-left:3px;
+font-size:12px;
+font-weight:bold;
+width:120px;
+outline:none;
+ -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.btn-check:hover {
+background: #6CC;
+}
+
+hr {
+  border-top: 1px solid #373737;
+}
+.img-fluid{
+  margin:auto;
+}
+/* Basic Structure
+-------------------------------------------------*/
+#wrapper {
+  position: relative;
+  min-height:100%;
+}
+#main {
+  position: relative;
+}
+#logo {
+
+}
+
+
+#newsletter_wp {
+  background: rgba(0, 0, 0, 0.5); 
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000, endColorstr=#7f000000);
+  /* Explorer 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000, endColorstr=#7f000000)";
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding:5px;
+  position:relative;
+}
+.countdown{
+  text-align:center;
+    margin:140px 0 0 0;
+}
+
+.container_count {
+  width:60px;
+  display:inline-block;
+  margin-right:5px;
+  text-align:center;
+}
+.container_count.last {
+  margin-right:0;
+}
+#countdown_wp{
+  text-align:center;
+  margin:30px 0 20px 0;
+}
+#days, #hours, #minutes, #seconds{
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border:1px solid #fff;
+  text-align:center;
+  width:60px;
+  height:60px;
+  font-size:24px;
+  line-height:56px;
+  font-family:"Helvetica Neue", Arial, sans-serif;
+  font-weight:300;
+}
+
+#social_footer{
+  text-align:center;
+  border-top:1px solid rgba(255,255,255,0.2);
+  margin-top:60px;
+  padding-top:30px;
+}
+#social_footer p{
+  font-size:12px;
+  color:#8c8c8c;
+}
+#social_footer ul{
+  margin:0;
+  padding:0 0 10px 0;
+  text-align:center;
+}
+#social_footer ul li{
+  display:inline-block;
+  margin:0 5px 10px 5px;
+}
+#social_footer ul li a{
+  color:#fff;
+  text-align:center;
+  line-height:34px;
+  display:block;
+  font-size:16px;
+  width:35px;
+  height:35px;
+  border:1px solid rgba(255,255,255,0.3);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+#social_footer ul li a:hover{
+  border:1px solid #fff;
+  background:#fff;
+  color:#111;
+}
+
+/*============================================================================================*/
+/* 2.  FORMS */
+/*============================================================================================*/
+
+
+.form-control {height: 38px; -webkit-box-shadow: none; box-shadow: none; -webkit-appearance: none; padding-left:8px; }
+.first-nogutter {padding-right:0;}
+.nogutter {padding-right:0; padding-left:5px;}
+.form-control{
+   background-color: #ffffff;
+  
+}
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.loader { position:absolute; right:-15px; top:0;}
+
+label {font-weight:600; line-height:14px;}
+.error_message { margin-top:3px; color: #F66; display:inline-block;}
+
+/*============================================================================================*/
+/* 3.  COMMON */
+/*============================================================================================*/
+
+#slides {
+   position: fixed !important;
+  top:0;
+  left:0;
+  z-index:-2;
+}
+ul.slides-container li img{
+  opacity:0.5;
+}
+#slides .slides-container {
+  display: none;
+}
+#slides .scrollable {
+  *zoom: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+}
+#slides .scrollable:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*============================================================================================*/
+/* 4.  MEDIA QUERIES */
+/*============================================================================================*/
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+.btn-check {width:95px;}
+
+}
+@media (max-width: 979px) {
+
+.btn-check { position:relative;  top:10px; left:42%; width:95px; margin-bottom:15px;}
+.first-nogutter {padding-right:15px;}
+.loader { position:absolute; right:10px; top:10px;}
+}
+  
+/* From tablet portrait to mobile */
+@media (max-width: 767px) {
+
+.countdown{
+  margin:100px 0 0 0;
+}
+h1 {
+  
+  font-size:24px;
+}
+h2 {
+  font-size:16px;
+}
+h3 {
+  font-size:32px;
+}
+
+} 
+
+/* Mobile portrait */
+@media (max-width: 480px) {
+body {
+  font-size:12px;
+}
+h3 {
+  margin:40px 0 20px 0;
+  font-size:32px;
+}
+
+.countdown{
+    margin:50px 0 0 0;
+}
+.btn-check {left:38%;}
+
+
+
+}
+    </style>
+    
+
+  </head>
+  <body>
+  
+<div id="wrapper">
+	<div id="main">
+		<div class="container">
+			
+			<div class="row countdown">
+            	<div class="col-md-12"  >
+                <div id="logo"><a href="../index.html"><img src="../assets/images/logos/logo_2x.png" width="160" height="40" alt="AMAD"></a></div></div><br><br>
+                    <h1>404 error page!</h1><br>
+                    
+                    <h2>"We apologize for the inconvenience. The page you are trying to access cannot be found. Please ensure that the URL is correct and try again. If the problem persists, please reach out to our support team for further assistance. Thank you for your understanding."</h2>
+
+                </div>
+			
+			</div>
+            <div id="countdown_wp" class="row">
+						  <div class="col-md-12">
+                       <a class="btn btn-primary" href="../index.html" role="button">BACK TO HOME PAGE</a>
+                       <a class="btn btn-primary" href="../contact-us.html" role="button">CONTACT AMAD</a>
+                    </div>			
+			</div><!-- End container -->
+            
+     
+                    <div id="social_footer">
+                        <ul>
+                            <li><a href="https://www.facebook.com/ask.me.about.dxb" target="_blank"><i class="icon-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/ask.me.about.dubai/" target="_blank"><i class="icon-instagramm"></i></a></li>
+                            <li><a href="mailto:info@askmeaboutdubai.com"><i class="icon-email"></i></a></li>
+                            <li><a href="tel://+971528772214"><i class="icon-phone"></i></a></li>
+                            <li><a href="https://wa.me/+971528772214/" target="_blank"><i class="icon-chat"></i></a></li>
+                            
+                        </ul>
+                          <p>Copyright &copy; 2023 All Rights Reserved by <a href="https://www.askmeaboutdubai.com/">AMAD | ASK ME ABOUT DUBAI.</a><br>
+                        <small class="mt-4 mb-2">Designed & maintained by <a class="text-danger" target="_blank" href="https://websolutions.alhassangrp.com/">Al Hassan Web Solutions</a>
+                        </small>
+                        </p>
+                    </div>
+
+            
+		</div><!-- End container -->
+        
+        
+	</div><!-- End main -->
+    
+</div><!-- End wrapper -->
+	
+
+<div id="slides">
+	<ul class="slides-container">
+		<li><img src="assets/images/others/slide_1.jpg" alt="Image"></li>
+		<li><img src="assets/images/others/slide_2.jpg" alt="Image"></li>
+		<li><img src="assets/images/others/slide_3.jpg" alt="Image"></li>
+	</ul>
+</div><!-- End background slider -->
+
+<!-- JQUERY -->
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/jquery.animate-enhanced.min.js"></script>
+<script src="js/jquery.superslides.min.js"></script>
+<script  type="text/javascript">
+  $('#slides').superslides({
+	  play: 6000,
+	  pagination:false,
+	  animation_speed: 800,
+      animation: 'fade'
+    });
+</script>
+<!-- OTHER JS --> 
+<script  src="js/functions.js"></script>
+<script src="assets/validate.js"></script>
+  </body>
+</html>
